@@ -1,0 +1,58 @@
+h3 {
+  font-style: serif;
+  margin: 1em, 0, 0, 0.5em;
+  padding: 0;
+  text-align: center;
+}
+
+form {
+  background-color: #F0F8FF;
+  width: 60%;
+  border-color: white;
+  margin: auto;
+}
+
+fieldset {
+  border-color: white;
+  height: 15rem;
+  margin: 0;
+}
+
+#fname_error,
+#lname_error,
+#dep_error,
+#org_error {
+  color: red;
+  overflow: hidden;
+  width: 30%;
+  margin: 0;
+}
+
+#success {
+  margin: auto;
+  text-align: center;
+  display: none;
+}
+
+#fname_error {
+  margin: 0;
+}
+
+label {
+  display: inline-block;
+  width: 15%;
+  margin: 0 0 0 10%;
+}
+
+#first {
+  margin: 10% 0 0 10%;
+}
+
+#submitBtn {
+  margin: 1em 0 0 10%;
+  width: 10%;
+}
+
+span {
+  position: absolute;
+}
