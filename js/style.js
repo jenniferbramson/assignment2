@@ -1,5 +1,3 @@
-//$('success').hide();
-
 $('#account').submit(function(e) {
   var inputs = [$('#fname'), $('#lname'), $('#org'), $('#dep')];
   var errorFields = [$("#fname_error"), $("#lname_error"), $("#org_error"), $("#dep_error")];
